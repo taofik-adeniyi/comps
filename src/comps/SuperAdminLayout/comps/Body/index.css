@@ -1,0 +1,89 @@
+.cmp-body {
+  border-radius: 0.8rem;
+  border: 1px solid var(--ss-faded-gray);
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.3);
+  background: #fff;
+}
+.cmp-pad {
+  padding: 1rem;
+}
+.cmp-width {
+  width: 80%;
+  background: #fff;
+}
+.cmp-btn-wrapper {
+    display: flex;
+    margin: 1.6rem auto;
+    text-align: center;
+}
+.cmp-btn {
+    all: unset;
+    cursor: pointer;
+    color: var(--ss-orange);
+    width: 100%;
+    font-size: .8rem;
+}
+.form-wrapper {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.form-wrapper button {
+    all: unset;
+    cursor: pointer;
+    background: var(--ss-orange);
+    /* color: var(--ss-faded-gray); */
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 100%;
+    padding: .7rem;
+    box-sizing: border-box;
+    border-radius: .5rem;
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+}
+.form-wrapper button:hover {
+    background-color: var(--ss-orange-hover);
+}
+
+@media only screen and (min-width: var(--breakpoint-xs)) {
+  .cmp-width {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: var(--breakpoint-sm)) {
+  .cmp-width {
+    width: 95%;
+  }
+}
+@media only screen and (max-width: var(--breakpoint-md)) {
+}
+
+@media only screen and (max-width: var(--breakpoint-lg)) {
+  .cmp-width {
+    width: 35%;
+  }
+}
+
+@media only screen and (max-width: var(--breakpoint-xl)) {
+  .cmp-width {
+    width: 35%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .cmp-body {
+    /* background-color: red; */
+    width: 35%;
+  }
+}
